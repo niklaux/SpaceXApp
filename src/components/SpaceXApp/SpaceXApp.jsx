@@ -16,7 +16,9 @@ const SpaceXApp = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://api.spacexdata.com/v3/launches?limit=10&offset=${(page - 1) * 10}`
+        `https://api.spacexdata.com/v3/launches?limit=10&offset=${
+          (page - 1) * 10
+        }`
       );
       const data = await response.json();
 
@@ -64,9 +66,10 @@ const SpaceXApp = () => {
 
   return (
     <div className="container">
-      <h1>SpaceX Launches</h1>
+      <h1 className="display-2 text-center my-2">SpaceX Launches</h1>
       <input
         type="text"
+        className="form-control my-3"
         placeholder="Search via Mission Name"
         value={searchQuery}
         onChange={handleSearch}
