@@ -83,7 +83,7 @@ const SpaceXApp = () => {
       {!loading && !filteredLaunches.length && (
         <div className="no-more">No launches match your search</div>
       )}
-      {!hasMore && <div className="no-more">No more launches to display</div>}
+      {!hasMore && <div className="fw-bold text-center fs-3 my-3">No more launches to display</div>}
       {error && <div className="error">{error}</div>}
     </div>
   );
