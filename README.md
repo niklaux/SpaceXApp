@@ -1,5 +1,17 @@
 # JS Code Test
 
+Screenshots:
+
+Initial Load:
+![image](https://github.com/user-attachments/assets/c5046882-de7b-4c18-a550-7142f6ca69c8)
+
+Toggle Button:
+![image](https://github.com/user-attachments/assets/44ad72e9-ad7c-4997-af00-401869ce1516)
+
+Search Functionality:
+![image](https://github.com/user-attachments/assets/bb422736-47dd-4841-bfc6-f0c21030defb)
+
+
 This code test will determine your approach on solving problems.
 
 You will be using SpaceX API. <https://docs.spacexdata.com>
