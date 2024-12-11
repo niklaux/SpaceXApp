@@ -1,0 +1,21 @@
+.loading, .no-more, .error {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.launch-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.launch-details.expanded {
+  max-height: 500px; /* Adjust this to the maximum height of the content */
+  opacity: 1;
+}
+
+.launch-details.collapsed {
+  max-height: 0;
+  opacity: 0;
+}
