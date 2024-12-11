@@ -1,10 +1,10 @@
 .spinner {
   color: #1976d2;
   display: block;
-  height: 1.5em;
+  height: 5.5em;
   margin: auto;
   position: relative;
-  width: 1.5em;
+  width: 5.5em;
 
   & > div {
     border: 0.1875rem solid transparent;
@@ -12,8 +12,8 @@
     box-sizing: border-box;
     display: block;
     position: absolute;
-    width: 1.5em;
-    height: 1.5em;
+    width: 5.5em;
+    height: 5.5em;
     /* margin: 3px; */
     border-radius: 50%;
     animation: spinner 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
